@@ -5,6 +5,12 @@ class Couleur {
   Couleur.vert():r=0,g=255,b=0;
   Couleur.bleu():r=0,g=0,b=255;
   void affichercouleur()=>print("(R:$r, V:$g B:$b)");
-  
-
+}
+void main() {
+  var rouge = Couleur.rouge();
+  var vert = Couleur.vert();
+  var bleu = Couleur.bleu();
+  rouge.affichercouleur();
+  vert.affichercouleur();
+  bleu.affichercouleur();
 }
