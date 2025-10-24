@@ -11,4 +11,12 @@ class Cercle extends Forme {
     return 3.14 * rayon * rayon;
   }
 }
+class Rectangle extends Forme { 
+  double longueur, largeur;
+  Rectangle(this.longueur, this.largeur);
+  double calculerAire() {
+    return longueur * largeur;
+  }
+}  
+
 
